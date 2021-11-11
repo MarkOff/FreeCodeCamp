@@ -47,3 +47,74 @@ function functionWithArgs(one, two) {
 };
 functionWithArgs(1,2);
 functionWithArgs(7,9);
+
+
+Task№51
+function timesFive (num) {
+  return num * 5;
+};
+const result = timesFive(5);
+const result1 = timesFive(2);
+const result2 = timesFive(0);
+
+console.log(result);
+console.log(result1);
+console.log(result2);
+
+Task№52
+// Declare the myGlobal variable below this line
+const myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+Task№53
+function myLocalScope() {
+  // Only change code below this line
+  let myVar;
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+Task№54
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+let outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+console.log(myOutfit());
+
+Task№55
+// Setup
+let sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
+// Only change code below this line
+function addFive() {
+  sum = sum + 5;
+};
+// Only change code above this line
+addThree();
+addFive();
+
+Task№56
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+// Only change code below this line
+console.log(processed);
