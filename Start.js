@@ -504,3 +504,87 @@ chainToSwitch(7);
 console.log(chainToSwitch())
 
 Task№80
+function isLess(a, b) {
+  // Only change code below this line
+  return a<=b
+  // Only change code above this line
+}
+
+isLess(10, 15);
+console.log(isLess(10,15));
+
+Task№81
+// Setup
+function abTest(a, b) {
+  // Only change code below this line
+  if (a<0 || b<0){
+   return undefined;
+  }
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+console.log(abTest(-2,2));
+
+Task№82
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  
+    var blackJ = /[JQKA]/;
+  if (card > 1 && card < 7) {
+    count++;
+  } else if (card === 10 || blackJ.test(card)) {
+    count--;
+  }
+
+  if (count > 0) return count + " Bet";
+  return count + " Hold";
+ 
+  
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+console.log(cc(2),cc(3),cc(4),cc(5),cc(6));
+
+Task№83
+const myDog = {
+  // Only change code below this line
+  "name":"Casper",
+  "legs":4,
+  "tails":1,
+  "friends":["Dogs","People"]
+  // Only change code above this line
+};
+
+Task№84
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat     // Change this line
+const shirtValue = testObj.shirt    // Change this line
+
+Task№85
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+ const entreeValue = testObj["an entree"];// Change this line
+ const drinkValue = testObj["the drink"];      // Change this line
+
+ console.log(drinkValue);
+
+Task№86
