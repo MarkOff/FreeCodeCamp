@@ -623,3 +623,40 @@ const myDog = {
 
 myDog.bark = "bow-wow";
 console.log(myDog.bark);
+
+Task№89
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails;
+console.log(myDog);
+
+Task№90
+// Setup
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  // Only change code above this line
+  result = lookup[val];
+  return result;
+}
+
+phoneticLookup("charlie");
+
+console.log(phoneticLookup("foxtrot"));
