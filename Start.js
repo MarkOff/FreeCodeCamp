@@ -1,10 +1,10 @@
 # FreeCodeCamp
 Traning JS
- 
+
 Task№44
 // Setup
 const myArray = [["John", 23], ["cat", 2]];
-myArray.push(['dog',3]);
+myArray.push(['dog', 3]);
 // Only change code below this line
 console.log(myArray);
 
@@ -26,31 +26,31 @@ Task47
 // Setup
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
-myArray.unshift(["Paul",35])
+myArray.unshift(["Paul", 35])
 // Only change code below this line
 console.log(myArray);
 
 Task№48
-const myList = [['egg',10],['wather bottles',5],['chees',1 ],['lemons',2],['chocolate',4]];
+const myList = [['egg', 10], ['wather bottles', 5], ['chees', 1], ['lemons', 2], ['chocolate', 4]];
 console.log(myList);
 
 Task№49
- function reusableFunction(){
-   console.log("Hi World");
- };
- reusableFunction();
+function reusableFunction() {
+  console.log("Hi World");
+};
+reusableFunction();
 
 Task№50
 function functionWithArgs(one, two) {
   console.log(one + two);
   console.log(one + two);
 };
-functionWithArgs(1,2);
-functionWithArgs(7,9);
+functionWithArgs(1, 2);
+functionWithArgs(7, 9);
 
 
 Task№51
-function timesFive (num) {
+function timesFive(num) {
   return num * 5;
 };
 const result = timesFive(5);
@@ -88,7 +88,7 @@ const outerWear = "T-Shirt";
 
 function myOutfit() {
   // Only change code below this line
-let outerWear = "sweater";
+  let outerWear = "sweater";
   // Only change code above this line
   return outerWear;
 }
@@ -149,9 +149,9 @@ console.log(welcomeToBooleans());
 Task№59
 function trueOrFalse(wasThatTrue) {
   // Only change code below this line
- if (wasThatTrue) {
-   return "Yes, that was true";
- }
+  if (wasThatTrue) {
+    return "Yes, that was true";
+  }
   return "No, that was false";
   // Only change code above this line
 }
@@ -159,7 +159,7 @@ function trueOrFalse(wasThatTrue) {
 Task№60
 // Setup
 function testEqual(val) {
-  if (val==12) { // Change this line
+  if (val == 12) { // Change this line
     return "Equal";
   }
   return "Not Equal";
@@ -171,7 +171,7 @@ console.log(testEqual(10))
 Task№61
 // Setup
 function testStrict(val) {
-  if (val===7) { // Change this line
+  if (val === 7) { // Change this line
     return "Equal";
   }
   return "Not Equal";
@@ -194,7 +194,7 @@ console.log(compareEquality());
 Task№63
 // Setup
 function testNotEqual(val) {
-  if (val!=99) { // Change this line
+  if (val != 99) { // Change this line
     return "Not Equal";
   }
   return "Equal";
@@ -205,7 +205,7 @@ testNotEqual(10);
 Task№64
 // Setup
 function testStrictNotEqual(val) {
-  if (val!==17) { // Change this line
+  if (val !== 17) { // Change this line
     return "Not Equal";
   }
   return "Equal";
@@ -215,11 +215,11 @@ testStrictNotEqual(10);
 
 Task№65
 function testGreaterThan(val) {
-  if (val>100) {  // Change this line
+  if (val > 100) {  // Change this line
     return "Over 100";
   }
 
-  if (val>10) {  // Change this line
+  if (val > 10) {  // Change this line
     return "Over 10";
   }
 
@@ -230,11 +230,11 @@ testGreaterThan(10);
 
 Task№66
 function testGreaterOrEqual(val) {
-  if (val>=20) {  // Change this line
+  if (val >= 20) {  // Change this line
     return "20 or Over";
   }
 
-  if (val>=10) {  // Change this line
+  if (val >= 10) {  // Change this line
     return "10 or Over";
   }
 
@@ -244,11 +244,11 @@ testGreaterOrEqual(10);
 
 Task№67
 function testLessThan(val) {
-  if (val<25) {  // Change this line
+  if (val < 25) {  // Change this line
     return "Under 25";
   }
 
-  if (val<55) {  // Change this line
+  if (val < 55) {  // Change this line
     return "Under 55";
   }
 
@@ -259,11 +259,11 @@ console.log(testLessThan(99));
 
 Task№68
 function testLessOrEqual(val) {
-  if (val<=12) {  // Change this line
+  if (val <= 12) {  // Change this line
     return "Smaller Than or Equal to 12";
   }
 
-  if (val<=24) {  // Change this line
+  if (val <= 24) {  // Change this line
     return "Smaller Than or Equal to 24";
   }
 
@@ -277,8 +277,8 @@ Task№69
 function testLogicalAnd(val) {
   // Only change code below this line
 
-  if (val<=50 && val>=25) {
-      return "Yes";
+  if (val <= 50 && val >= 25) {
+    return "Yes";
   }
 
   // Only change code above this line
@@ -286,13 +286,13 @@ function testLogicalAnd(val) {
 }
 
 testLogicalAnd(10);
-console.log(testLogicalAnd(80)); 
+console.log(testLogicalAnd(80));
 
 Task№70
 function testLogicalOr(val) {
   // Only change code below this line
 
-  if (val>=21 || val<=9) {
+  if (val >= 21 || val <= 9) {
     return "Outside";
   }
 
@@ -326,7 +326,7 @@ function testElseIf(val) {
   } else if (val < 5) {
     return "Smaller than 5";
   } else {
-  return "Between 5 and 10";
+    return "Between 5 and 10";
   }
 };
 
@@ -358,11 +358,11 @@ function testSize(num) {
     return "Medium";
   } else if (num < 20) {
     return "Large";
-  } else { 
+  } else {
     return "Huge";
   }
 }
-  // Only change code above this line
+// Only change code above this line
 testSize(7);
 console.log(testSize(25));
 
@@ -373,42 +373,42 @@ function golfScore(par, strokes) {
   // Only change code below this line
   if (strokes == 1) {
     return "Hole-in-one!";
-  } else if (strokes <= par - 2){
+  } else if (strokes <= par - 2) {
     return "Eagle";
-  } else if (strokes == par - 1){
+  } else if (strokes == par - 1) {
     return "Birdie";
-  }else if (strokes == par){
+  } else if (strokes == par) {
     return "Par";
-  }else if (strokes == par + 1){
+  } else if (strokes == par + 1) {
     return "Bogey";
-  }else if (strokes == par + 2){
-     return "Double Bogey";
-  }else {
+  } else if (strokes == par + 2) {
+    return "Double Bogey";
+  } else {
     return "Go Home!"
   }
   // Only change code above this line
 }
 
 golfScore(5, 4);
-console.log(golfScore(4,2 ));
+console.log(golfScore(4, 2));
 
 Task№76
 function caseInSwitch(val) {
   let answer = "";
   // Only change code below this line
-  switch(val) {
-    case 1: 
-    return "alpha";
-    break;
-    case 2: 
-    return "beta";
-    break;
-    case 3: 
-    return "gamma";
-    break;
-    case 4: 
-    return "delta";
-    break;
+  switch (val) {
+    case 1:
+      return "alpha";
+      break;
+    case 2:
+      return "beta";
+      break;
+    case 3:
+      return "gamma";
+      break;
+    case 4:
+      return "delta";
+      break;
   }
 
   // Only change code above this line
@@ -462,8 +462,8 @@ function sequentialSizes(val) {
     case 7:
     case 8:
     case 9:
-    return 'High';
-    break;
+      return 'High';
+      break;
   }
 
 
@@ -472,30 +472,30 @@ function sequentialSizes(val) {
 }
 
 sequentialSizes(1);
- console.log(sequentialSizes(6))
+console.log(sequentialSizes(6))
 
 Task№79
 function chainToSwitch(val) {
   let answer = "";
   // Only change code below this line
-switch (val) {
-  case "bob":
-    return "Marley";
-    brake;
-  case 42:
-    return "The Answer";
-    break;
-  case 1:
-    return "There is no #1";
-    break;
-  case 99:
-    return "Missed me by this much!";
-    break;
-  case 7:
-    return "Ate Nine";
-    break;
-  default: "";
-}
+  switch (val) {
+    case "bob":
+      return "Marley";
+      brake;
+    case 42:
+      return "The Answer";
+      break;
+    case 1:
+      return "There is no #1";
+      break;
+    case 99:
+      return "Missed me by this much!";
+      break;
+    case 7:
+      return "Ate Nine";
+      break;
+    default: "";
+  }
   // Only change code above this line
   return answer;
 }
@@ -506,35 +506,35 @@ console.log(chainToSwitch())
 Task№80
 function isLess(a, b) {
   // Only change code below this line
-  return a<=b
+  return a <= b
   // Only change code above this line
 }
 
 isLess(10, 15);
-console.log(isLess(10,15));
+console.log(isLess(10, 15));
 
 Task№81
 // Setup
 function abTest(a, b) {
   // Only change code below this line
-  if (a<0 || b<0){
-   return undefined;
+  if (a < 0 || b < 0) {
+    return undefined;
   }
   // Only change code above this line
 
   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
-abTest(2,2);
-console.log(abTest(-2,2));
+abTest(2, 2);
+console.log(abTest(-2, 2));
 
 Task№82
 let count = 0;
 
 function cc(card) {
   // Only change code below this line
-  
-    var blackJ = /[JQKA]/;
+
+  var blackJ = /[JQKA]/;
   if (card > 1 && card < 7) {
     count++;
   } else if (card === 10 || blackJ.test(card)) {
@@ -543,21 +543,21 @@ function cc(card) {
 
   if (count > 0) return count + " Bet";
   return count + " Hold";
- 
-  
+
+
   // Only change code above this line
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
-console.log(cc(2),cc(3),cc(4),cc(5),cc(6));
+console.log(cc(2), cc(3), cc(4), cc(5), cc(6));
 
 Task№83
 const myDog = {
   // Only change code below this line
-  "name":"Casper",
-  "legs":4,
-  "tails":1,
-  "friends":["Dogs","People"]
+  "name": "Casper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Dogs", "People"]
   // Only change code above this line
 };
 
@@ -582,9 +582,44 @@ const testObj = {
 };
 
 // Only change code below this line
- const entreeValue = testObj["an entree"];// Change this line
- const drinkValue = testObj["the drink"];      // Change this line
+const entreeValue = testObj["an entree"];// Change this line
+const drinkValue = testObj["the drink"];      // Change this line
 
- console.log(drinkValue);
+console.log(drinkValue);
 
 Task№86
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+const playerNumber = 16;  // Change this line
+const player = testObj[playerNumber];   // Change this line
+
+console.log(playerNumber);
+
+Task№87
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+// Only change code below this line
+myDog.name = "Happy Coder";
+console.log(myDog.name);
+
+Task№88
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "bow-wow";
+console.log(myDog.bark);
