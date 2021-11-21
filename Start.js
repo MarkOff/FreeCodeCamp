@@ -773,3 +773,66 @@ function updateRecords(records, id, prop, value) {
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
 Task№96
+// Setup
+const myArray = [];
+ let y = 5;
+
+ while (y >= 0 ) {
+   myArray.push(y);
+   y--;
+ }
+// Only change code below this line
+console.log(myArray);
+
+Task№97
+// Setup
+const myArray = [];
+  
+  for (let y = 1;y <= 5; y++){
+    myArray.push(y);
+}
+// Only change code below this line
+console.log(myArray);
+
+Task№98
+// Setup
+const myArray = [];
+  for (let y = 1; y < 10; y +=2) {
+    myArray.push(y);
+  };
+// Only change code below this line
+console.log(myArray);
+
+Task№99
+// Setup
+const myArray = [];
+  for (let y = 9; y > 0; y-=2) {
+    myArray.push(y);
+  };
+// Only change code below this line
+console.log(myArray);
+
+Task№100
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+    let total = 0;
+  for (let y = 0; y < myArr.length; y++){
+    total += myArr[y];
+  }
+// Only change code below this line
+console.log(total);
+
+Task№101
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  for ( let i= 0; i<arr.length; i++) {
+    for (let y = 0; y<arr[i].length; y++)
+   product = product * arr[i][y];
+  
+  }
+  // Only change code above this line
+  return product;
+}
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+console.log(multiplyAll([[1], [2], [3]]));
