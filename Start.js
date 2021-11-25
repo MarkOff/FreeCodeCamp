@@ -901,3 +901,68 @@ function lookUpProfile(name, prop) {
 lookUpProfile("Akira", "likes");
 console.log(lookUpProfile("Kristian", "lastName"));
 
+Task№105
+function randomFraction() {
+
+  // Only change code below this line
+  var result = 0;
+  while (result === 0) {
+   result =  Math.random();
+  } 
+  return result;
+  // Only change code above this line
+}
+
+Task№106
+function randomWholeNum() {
+
+  // Only change code below this line
+
+  return Math.floor(Math.random()*10);
+}
+
+Task№107
+function randomRange(myMin, myMax) {
+  // Only change code below this line
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+  // Only change code above this line
+}
+
+Task№108
+function convertToInteger(str) {
+ var a = parseInt (str);
+  return a;
+}
+
+convertToInteger("56");
+console.log(convertToInteger('0077'));
+
+Task№109
+function convertToInteger(str) {
+  return parseInt(str,2);
+
+}
+
+convertToInteger("10011");
+console.log(convertToInteger('10011'));
+
+Task№110
+
+function checkEqual(a, b) {
+   return a === b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);
+console.log(checkEqual(1,-1));
+
+Task№111
+function checkSign(num) {
+  return (num === 0) ? "zero"
+    : (num >= 10) ? "positive"
+    : "negative"
+}
+
+checkSign(10);
+console.log(checkSign(-10));
+
+Task№112
