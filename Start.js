@@ -209,3 +209,56 @@ Task №39
 const myArray = ['This firs array', 2];
 
 Task №40
+const myArray = [['first array',1],['second array',2]];
+
+Task №41
+const myArray = [50, 60, 70];
+var myData = myArray[0];
+
+Task №42
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+Task №43
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+const myData = myArray[2][1];
+
+Task №44
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+console.log(myArray);
+
+Task №45
+const myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray = myArray.pop(); 
+console.log(myArray);
+
+Task №46
+const myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray = myArray.shift();
+console.log(removedFromMyArray);
+
+Task №47
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+Task №48
+const myList = [['Milk', 2],['Chocolate', 5],['bread', 1],['eggs', 2],['vegetables', 5]];
+
+Task №49
+function reusableFunction() {
+  console.log('Hi World');
+};
+reusableFunction();
+
+Task №50
+function  functionWithArgs(number1, number2) {
+  console.log(number1+number2);
+};
+functionWithArgs(7,9);
