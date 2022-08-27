@@ -165,3 +165,47 @@ Task №30
 const myName = 'Vlad';
 const myStr = 'My name is'+ myName + 'and I am well!';
 console.log(myStr);
+
+Task №31
+const someAdjective = "Cool!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
+Task №32
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+
+Task №33
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+firstLetterOfLastName = lastName[0]; 
+
+Task №34
+let myStr = "Jello World";
+myStr = "Hello World"; 
+
+Task №35
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2]; 
+
+Task №36
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length -1]; 
+
+Task №37
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length -2]; 
+
+Task №38
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myAdverb + ' ' + myVerb; 
+console.log(wordBlanks);
+
+Task №39
+const myArray = ['This firs array', 2];
+
+Task №40
