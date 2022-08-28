@@ -205,6 +205,8 @@ const myAdverb = "quickly";
 const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myAdverb + ' ' + myVerb; 
 console.log(wordBlanks);
 
+//ARRAY TASK START!
+
 Task №39
 const myArray = ['This firs array', 2];
 
@@ -251,6 +253,10 @@ myArray.unshift(["Paul", 35]);
 Task №48
 const myList = [['Milk', 2],['Chocolate', 5],['bread', 1],['eggs', 2],['vegetables', 5]];
 
+//ARRAY TAKS FINISH!
+
+//FUNCTION TASK START!
+
 Task №49
 function reusableFunction() {
   console.log('Hi World');
@@ -262,3 +268,93 @@ function  functionWithArgs(number1, number2) {
   console.log(number1+number2);
 };
 functionWithArgs(7,9);
+
+Task №51
+function timesFive(num) {
+  return num * 5;
+};
+var reult = timesFive(5);
+console.log(reult);
+
+Task №52
+function fun1() {
+  oopsGlobal = 5;
+}
+
+let myGlobal = 10;
+ 
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+Task №53
+function myLocalScope() {
+  var myVar = 'Hi';
+  console.log('inside myLocalScope', myVar);
+}
+
+myLocalScope();
+
+console.log('outside myLocalScope', myVar);
+
+Task №54
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  var outerWear = 'sweater';
+  return outerWear;
+}
+
+myOutfit(); 
+console.log(myOutfit());
+
+Task №55
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+  
+};
+
+addThree();
+console.log(addFive());
+
+Task №56
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = 2;
+processed = processArg(7)
+console.log(processed);
+
+//FUNCTION + ARRAY
+
+Task №57
+function nextInLine(arr, item) {
+  arr.push(item);
+  const removed = arr.shift();
+  return removed;
+}
+
+const testArr = [1, 2, 3, 4, 5];
+var sum = nextInLine([2], 1);
+console.log(sum)
+
+Display code
+ console.log("Before: " + JSON.stringify(testArr));
+ console.log(nextInLine(testArr, 6));
+ console.log("After: " + JSON.stringify(testArr));
