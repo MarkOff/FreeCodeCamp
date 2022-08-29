@@ -458,5 +458,38 @@ function testLessThan(val) {
 console.log(testLessThan(55);
             
 Task №68
-            
+function testLessOrEqual(val) {
+  if (val <= 12) {  
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 24) { 
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+console.log(testLessOrEqual(10));
+
+Task №69
+function testLogicalAnd(val) {
+    if (val <= 50 && val >= 25) {
+      return "Yes";
+    }
+  return "No";
+}
+console.log(testLogicalAnd(55));
+
+Task №70
+function testLogicalOr(val) {
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+    return "Inside";
+}
+console.log(testLogicalOr(9));
+
+
+
 
