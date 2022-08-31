@@ -490,6 +490,59 @@ function testLogicalOr(val) {
 }
 console.log(testLogicalOr(9));
 
+Task №71
+function testElse(val) {
+  let result = "";
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+      return '5 or Smaller';
+  };
+  return result;
+}
+console.log(testElse(4));
+
+Task №72
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }else if (val < 5) {
+    return "Smaller than 5";
+  }else{
+  return "Between 5 and 10";
+  }
+}
+console.log(testElseIf(7));
+
+Task №73
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+console.log(orderMyLogic(1));
+
+Task №74
+function testSize(num) {
+  if (num < 5) {
+      return 'Tiny';
+  } else if (num < 10) {
+      return 'Small';
+  } else if (num < 15) {
+      return 'Medium';
+  } else if (num < 20) {
+      return 'Large';
+  } else {
+      return 'Huge';
+  };
+};
+console.log(testSize(21));
+
+Task №75
 
 
 
