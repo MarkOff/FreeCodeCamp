@@ -566,3 +566,52 @@ function golfScore(par, strokes) {
 console.log(golfScore(5,9 ));
 
 Task №76
+function caseInSwitch(val) {
+  let answer = val;
+  switch (answer){
+    case 1:
+      answer = 'alpha';
+      break;
+    case 2:
+      answer = 'beta';
+      break;
+    case 3: 
+      answer = 'gamma';
+      break;
+    case 4:
+      answer = 'delta';
+      break;
+    default:
+      console.log ('Not defained');
+  }
+  return answer;
+  break;
+}
+console.log(caseInSwitch(3));
+
+Task №77
+function switchOfStuff(val) {
+  let answer = val;
+  switch (answer) {
+    case 'a':
+      answer = 'apple';
+      break;
+    case 'b':
+      answer = 'bird';
+      break;
+    case 'c':
+      answer = 'cat';
+      break;
+    case 'd':
+      answer = 'stuff';
+      break;
+    default:
+      answer = 'stuff';
+  };
+
+  return answer;
+}
+
+console.log(switchOfStuff(4));
+
+Task №78
