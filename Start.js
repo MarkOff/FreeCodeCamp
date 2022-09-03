@@ -563,8 +563,9 @@ function golfScore(par, strokes) {
   }
   
 };
-console.log(golfScore(5,9 ));
+console.log(golfScore(5,9 ));/
 
+//Start Switch Case!
 Task №76
 function caseInSwitch(val) {
   let answer = val;
@@ -615,3 +616,81 @@ function switchOfStuff(val) {
 console.log(switchOfStuff(4));
 
 Task №78
+function sequentialSizes(val) {
+  let answer = val;
+  switch(answer) {
+    case 1:
+    case 2:
+    case 3:
+      answer = 'Low';
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = 'Mid';
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = 'High';
+      break;
+    default:
+      answer = 'Over 9';
+      break;
+  };
+  return answer;
+}
+console.log(sequentialSizes(10));
+
+Task №79
+function chainToSwitch(val) {
+  let answer = val;
+
+  switch (answer) {
+    case 'bob':
+      answer = 'Marley';
+      break;
+    case 42:
+      answer = 'The Answer';
+      break;
+    case 1:
+      answer = 'There is no #1';
+      break;
+    case 99:
+      answer = 'Missed me by this much!'
+      break;
+    case 7:
+      answer = 'Ate Nine';
+      break;
+    case 'John':
+      answer = '';
+      break;
+    case 156:
+      answer = '';
+      break;
+    default:
+      answer = 'Enter you value'
+  }
+  return answer;
+}
+console.log(chainToSwitch(156));
+
+Task №80
+function isLess(a, b) {
+  return (a < b);
+}
+
+console.log(isLess(10, 15));
+
+Task №81
+function abTest(a, b) {
+  if (a < 0 || b < 0){
+  return;
+  };
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+console.log(abTest(2,-2));
+
+Task №82
