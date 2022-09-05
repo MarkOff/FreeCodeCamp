@@ -729,3 +729,27 @@ const myDog = {
   'tails': 1,
   'friends': ['other dogs','water','stroll'],
 };
+
+Task №84
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+const hatValue = testObj.hat;    
+const shirtValue = testObj.shirt;
+console.log(shirtValue);   
+
+Task №85
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+const entreeValue = testObj['an entree'];   
+const drinkValue = testObj['the drink'];    
+console.log(drinkValue);
+
+Task №86
