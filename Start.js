@@ -753,3 +753,38 @@ const drinkValue = testObj['the drink'];
 console.log(drinkValue);
 
 Task №86
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+const playerNumber = 16;  
+const player = testObj[playerNumber];   
+console.log(player);
+
+Task №87
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.name = 'Happy Coder';
+console.log(myDog.name);
+
+Task №88
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog['bark'] = 'bow-wow';
+console.log(myDog);
+
+Task №89
+
+
