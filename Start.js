@@ -925,3 +925,10 @@ function updateRecords(records, id, prop, value) {
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
 Task №96
+const myArray = [];
+let i= 5;
+
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
