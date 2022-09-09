@@ -924,11 +924,48 @@ function updateRecords(records, id, prop, value) {
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
+// START "WHILE" and "FOR"
+
 Task №96
 const myArray = [];
-let i= 5;
+let i = 5
 
 while (i >= 0) {
   myArray.push(i);
   i--;
 }
+console.log(myArray);
+
+Task №97
+const myArray = [];
+
+for (let x = 1; x <= 5; x++){
+  myArray.push(x);
+};
+console.log(myArray);
+
+Task №98
+const myArray = [];
+
+for (let x = 1; x <= 9; x += 2) {
+  myArray.push(x);
+};
+console.log(myArray);
+
+Task №99
+const myArray = [];
+
+for (let x = 9; x > 0; x -= 2) {
+  myArray.push(x);
+};
+console.log(myArray);
+
+Task №100
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for(let i = 0; i < myArr.length; i++){
+  total += myArr[i];
+};
+console.log(total);
+
+Task №101
