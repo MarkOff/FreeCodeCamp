@@ -969,3 +969,28 @@ for(let i = 0; i < myArr.length; i++){
 console.log(total);
 
 Task №101
+function multiplyAll(arr) {
+  let product = 1;
+
+  for (var x = 0; x < arr.length; x++) {
+    for(var i = 0; i < arr[x].length; i++){
+    product = product * arr[x][i];
+    }
+  };
+  return product;
+}
+
+console.log(multiplyAll([[1],[2],[3]]));
+
+Task №102
+const myArray = [];
+let i = 10;
+
+do{
+  myArray.push(i);
+  i++;
+}while (i < 10) {
+}
+console.log(i);
+
+Task №103
