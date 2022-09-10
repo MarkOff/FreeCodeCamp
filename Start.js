@@ -994,3 +994,7 @@ do{
 console.log(i);
 
 Task №103
+//надо удалить, это с другого занятие 
+}while (i < 10) {
+}
+console.log(i);
