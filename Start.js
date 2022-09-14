@@ -1059,3 +1059,21 @@ function randomWholeNum() {
 console.log(randomWholeNum());
 
 Task №107
+function randomRange(myMin, myMax) {
+return  Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+}
+console.log(randomRange(1, 10));
+
+Task №108
+function convertToInteger(str) {
+  return parseInt(str);
+}
+console.log(convertToInteger("0063"));
+
+Task №109
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+console.log(convertToInteger("10011"));
+
+Task №110
