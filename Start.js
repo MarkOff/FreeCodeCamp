@@ -1,3 +1,5 @@
+//Basic JavaScript Start
+
 Task №1
 //Hi World
 /*Hi
@@ -1077,3 +1079,83 @@ function convertToInteger(str) {
 console.log(convertToInteger("10011"));
 
 Task №110
+function checkEqual(a, b) {
+ return a===b ? 'Equal' : 'Not Equal'
+}
+console.log(checkEqual(2, 2));
+
+Task №111
+function checkSign(num) {
+return  (num > 0) ? 'positive'
+: (num === 0) ? 'zero'
+: 'negative'
+}
+console.log(checkSign(-1));
+
+Task №112
+function countdown(n){
+ if (n < 1) {
+    return [];
+  } else {
+    const arr = countdown(n - 1);
+    arr.unshift(n);
+    return arr;
+  }
+}
+console.log(countdown(-1));
+
+Task №113
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum < startNum) {
+    return [];
+  } else {
+    let numbers = rangeOfNumbers(startNum, endNum - 1)
+    numbers.push(endNum);
+    return numbers
+  }
+};
+console.log(rangeOfNumbers(10, 20));
+
+
+//Basic JavaScript End
+
+Task №1
+function checkScope() {
+  let i = 'function scope';
+  if (true) {
+   let i = 'block scope';
+    console.log('Block scope i is: ', i);
+  }
+  console.log('Function scope i is: ', i);
+  return i;
+}
+console.log(checkScope());
+
+Task №2
+const s = [5, 7, 2];
+function editInPlace() {
+s[0] = 2;
+s[1] = 5;
+s[2] = 7;
+}
+editInPlace();
+console.log(s);
+
+Task №3
+function freezeObj() {
+  const MATH_CONSTANTS = {
+    PI: 3.14
+  };
+  Object.freeze(MATH_CONSTANTS);
+
+  try {
+    MATH_CONSTANTS.PI = 99;
+  } catch(ex) {
+    console.log(ex);
+  }
+  return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj();
+console.log(PI);
+
+Task №4
