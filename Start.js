@@ -1171,3 +1171,67 @@ const increment = (number, value = 1) => number + value ;
 console.log(increment(5));
 
 Task №7
+const sum = (...args) => {
+  return args.reduce((a, b) => a + b, 0);
+}
+console.log(sum(1,2,3,4));
+
+Task №8
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+arr2 = [...arr1];  
+console.log(arr2);
+
+Task №9
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+const {today,tomorrow} = HIGH_TEMPERATURES;
+console.log({today,tomorrow});
+
+Task №10
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
+
+Task №11
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
+const {today:{low:lowToday, high:highToday}} = LOCAL_FORECAST;
+console.log(LOCAL_FORECAST.today);
+
+Task №12
+let a = 8, b = 6;
+[a, b] = [b, a];
+console.log(a,b)
+
+Task №13
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  const [a,b, ...arr] = list; 
+  return arr;
+}
+const arr = removeFirstTwo(source);
+console.log(arr);
+
+Task №14
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+const half = ({min,max}) => (max + min) / 2.0; 
+console.log(half(stats));
+
+Task №15
