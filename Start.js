@@ -1235,3 +1235,23 @@ const half = ({min,max}) => (max + min) / 2.0;
 console.log(half(stats));
 
 Task №15
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["no-extra-semi", "no-dup-keys"]
+};
+function makeList(arr) {
+   const failureItems = [];
+  for (let i = 0; i < arr.length; i++) {
+    failureItems.push(`<li class="text-warning">${arr[i]}</li>`);
+ }
+  return failureItems;
+}
+const failuresList = makeList(result.failure);
+console.log(failuresList);
+
+Task №16
+const createPerson = (name, age, gender) => ({name, age, gender});
+console.log(createPerson('Gary',24,'man'));
+
+Task №17
