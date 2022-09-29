@@ -1116,9 +1116,9 @@ function rangeOfNumbers(startNum, endNum) {
 };
 console.log(rangeOfNumbers(10, 20));
 
-
 //Basic JavaScript End
 
+//EC6 Start
 Task №1
 function checkScope() {
   let i = 'function scope';
@@ -1255,3 +1255,49 @@ const createPerson = (name, age, gender) => ({name, age, gender});
 console.log(createPerson('Gary',24,'man'));
 
 Task №17
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  }
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
+
+Task №18
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }  
+}
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); 
+
+Task №19
+class Thermostat {
+  constructor(fahrenheit) {
+    this.fahrenheit = fahrenheit;
+  }
+  
+  get temperature() {
+    return (5 / 9) * (this.fahrenheit - 32);
+  }
+  
+  set temperature(celsius) {
+    this.fahrenheit = (celsius * 9.0) / 5 + 32;
+  }
+}
+const thermos = new Thermostat(76); 
+let temp = thermos.temperature; 
+thermos.temperature = 26;
+temp = thermos.temperature; 
+console.log(temp);
+
+Task №20
+<html>
+  <body>
+    <script type='module' src='index.js'></script>
+  </body>
+</html>
+
+Task №21
