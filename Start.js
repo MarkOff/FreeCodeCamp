@@ -1118,6 +1118,9 @@ console.log(rangeOfNumbers(10, 20));
 
 //Basic JavaScript End
 
+
+
+
 //EC6 Start
 Task №1
 function checkScope() {
@@ -1301,3 +1304,88 @@ Task №20
 </html>
 
 Task №21
+export const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export {lowercaseString};
+
+Task №22
+uppercaseString("hello");
+lowercaseString("WORLD!");
+import {uppercaseString, lowercaseString} from './string_functions.js';
+
+Task №23
+import * as stringFunctions from './string_functions.js';
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+Task №24
+export default function subtract(x, y) {
+  return x - y;
+}
+
+Task №25
+import subtract from './math_functions.js';  
+subtract(7,4);
+
+Task №26
+const makeServerRequest = new Promise((resolve, reject) => {
+
+});
+
+Task №27
+const makeServerRequest = new Promise((resolve, reject) => {
+  let responseFromServer;
+    
+  if(responseFromServer) {
+    resolve('We got the data');
+  } else {  
+    reject('Data not received');
+  }
+});
+
+Task №28
+const makeServerRequest = new Promise((resolve, reject) => {
+  let responseFromServer = true;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+console.log(result)
+});
+
+Task №29
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to false to represent an unsuccessful response from a server
+  let responseFromServer = false;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+  console.log(result);
+});
+
+makeServerRequest.catch(error => {
+  console.log(error);
+});
+//ES6 END!
+
+
+
+//Regular Expressions START!
+
+
