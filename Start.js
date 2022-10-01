@@ -1387,5 +1387,10 @@ makeServerRequest.catch(error => {
 
 
 //Regular Expressions START!
+Task №1
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString);
+
 
 
