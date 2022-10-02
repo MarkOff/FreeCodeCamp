@@ -1394,3 +1394,7 @@ let result = myRegex.test(myString);
 
 
 
+Task №2
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString);
