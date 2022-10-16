@@ -1,1 +1,82 @@
 
+Task №1 
+let yourArray = [1,'two',{name:'Jon'},true,null,2 + 2];
+console.log(yourArray);
+
+
+Task №2
+let myArray = ["a", "b", "c", "d"];
+myArray[1] = 'this b'
+console.log(myArray);
+
+
+Task №3
+function mixedNumbers(arr) {
+  arr.unshift('I', 2, 'three');
+  arr.push(7, 'VIII', 9)
+  return arr;
+}
+console.log(mixedNumbers(['IV', 5, 'six']));
+
+
+Task №4
+function popShift(arr) {
+  let popped = arr.pop(); 
+  let shifted = arr.shift(); 
+  return [shifted, popped];
+}
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+
+Task №5
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+arr.splice(1,4)
+console.log(arr);
+
+
+Task №6
+function htmlColorNames(arr) {
+  arr.splice(0,2, 'DarkSalmon','BlanchedAlmond');
+  return arr;
+}
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+Task №7
+function forecast(arr) {
+
+  return arr.slice(2, 4);
+}
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
+
+Task №8
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    newArr.push([...arr]);
+    num--;
+  }
+  return newArr;
+}
+
+console.log(copyMachine([true, false, true], 2));
+
+
+Task №9
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']
+  return sentence;
+}
+console.log(spreadOut());
+
+
+Task №10
+function quickCheck(arr, elem) {
+  if (arr.indexOf(elem) >= 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
