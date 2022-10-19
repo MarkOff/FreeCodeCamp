@@ -7,3 +7,11 @@ console.log(convertCtoF(30));
 
 
 Task №2
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseString("hello"));
+
+
+Task №3
