@@ -169,3 +169,10 @@ console.log(result)
 
 
 Task №26
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; 
+let result = haRegex.test(haStr);
+console.log(result);
+
+
+Task №27
