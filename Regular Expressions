@@ -176,3 +176,24 @@ console.log(result);
 
 
 Task №27
+let timStr = "Timmmmber";
+let timRegex = /tim{4}ber/gi; 
+let result = timRegex.test(timStr);
+console.log(result);
+
+
+Task №28
+let timStr = "Timmmmber";
+let timRegex = /tim{4}ber/gi; 
+let result = timRegex.test(timStr);
+console.log(result);
+
+
+Task №29
+let favWord = "favorite";
+let favRegex = /favou?rite/; 
+let result = favRegex.test(favWord);
+console.log(result);
+
+
+Task №30
