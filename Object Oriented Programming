@@ -1,0 +1,30 @@
+Task №1
+let dog = {
+  name: 'Casper',
+  numLegs: 4,
+};
+
+
+Task №2
+let dog = {
+  name: 'Casper',
+  numLegs:4
+};
+
+console.log(dog.name);
+console.log(dog.numLegs);
+
+
+Task №3
+let dog = {
+  name: 'Casper',
+  numLegs: 4,
+  sayLegs: function() {
+    return 'This dog has ' + dog.numLegs + ' legs.'
+  },
+};
+
+console.log(dog.sayLegs());
+
+
+Task №4
