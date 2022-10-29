@@ -28,3 +28,24 @@ console.log(dog.sayLegs());
 
 
 Task №4
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+};
+
+console.log(dog.sayLegs());
+
+
+Task №5
+function Dog() {
+  this.name = 'Casper';
+  this.color = 'White-blue';
+  this.numLegs = 2;
+};
+
+console.log(Dog);
+
+
+Task №6
+
