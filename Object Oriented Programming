@@ -48,4 +48,23 @@ console.log(Dog);
 
 
 Task №6
+function Dog() {
+  this.name = "Casper";
+  this.color = "White-blue";
+  this.numLegs = 4;
+}
 
+let hound = new Dog();
+console.log(hound);
+
+
+
+Task №7
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+
+let terrier = new Dog('Boni', 'Black');
+console.log(terrier);
